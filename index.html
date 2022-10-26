@@ -7,6 +7,86 @@
     <title>WeatherApp</title>
 </head>
 <body>
-    
+    <aside class="aside_menu">
+        <div class="logo">
+            <img class="logo_image" src="" alt="WeatherApp">
+            <h1 class="logo_text">WeatherApp</h1>
+        </div>
+        <form class="search-form">
+            <input type="search" class="search-form__input">
+            <button class="search-form__btn"></button>
+        </form>
+        <div class="cities">
+            <div class="cities-list">
+                <h2 class="cities-list__category" id="previous">Previous</h2>
+                <ul class="cities-list__ul">
+                    <li class="cities-list__city-name">Moscow</li>
+                    <li class="cities-list__city-name">Saint Petersburg</li>
+                    <li class="cities-list__city-name">Ekaterinburg</li>
+                </ul>
+            </div>
+            <div class="cities-list">
+                <h2 class="cities-list__category">Popular</h2>
+                <ul class="cities-list__ul" id="popular">
+                    <li class="cities-list__city-name">London</li>
+                    <li class="cities-list__city-name">Paris</li>
+                    <li class="cities-list__city-name">New York</li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="city-header">
+            <h1 class="city-header__current-city" id="current-city">Moscow</h1>
+            <ul class="current-Date">
+                <li class="current-Date__date" id="date">10 september 2022</li>
+                <li class="current-Date__time" id="time">21:00</li>
+            </ul>
+        </div>
+        <div class="cards-wrapper">
+            <div class="card card_size-b">
+                <div class="day-info day-info_size-b">
+                    <h2 class="day-info__temp day-info__temp_size-b" id="temp">20° C</h2>
+                    <h3 class="card-main__feels card-main__feels_size-b">Feels like: <span class="card-main__feels-temp" id="feelsLikeTemp">19° C</span></h3>
+                    <h3 class="day-info__weather-status day-info__weather-status_size-b" id="WeatherStatus">Cloudy</h2>
+                </div>
+                <img class="card__icon size_b" src="#" alt="Cloudy">
+            </div>
+            <div class="small-cards-wrapper">
+                <div class="card">
+                    <div class="day-info">
+                        <h2 class="day-info__day-week" id="dayWeek">20° C</h2>
+                        <h2 class="day-info__data" id="dateOfDay">20° C</h2>
+                        <h2 class="day-info__temp" id="temp">20° C</h2>
+                    </div>
+                    <img class="card__icon size-s" src="#" alt="Cloudy">
+                </div>
+                <div class="card">
+                    <div class="day-info">
+                        <h2 class="day-info__day-week" id="dayWeek">20° C</h2>
+                        <h2 class="day-info__data" id="dateOfDay">20° C</h2>
+                        <h2 class="day-info__temp" id="temp">20° C</h2>
+                    </div>
+                    <img class="card__icon size-s" src="#" alt="Cloudy">
+                </div>
+                <div class="card">
+                    <div class="day-info">
+                        <h2 class="day-info__day-week" id="dayWeek">20° C</h2>
+                        <h2 class="day-info__data" id="dateOfDay">20° C</h2>
+                        <h2 class="day-info__temp" id="temp">20° C</h2>
+                    </div>
+                    <img class="card__icon size-s" src="#" alt="Cloudy">
+                </div>
+                <div class="card">
+                    <div class="day-info">
+                        <h2 class="day-info__day-week" id="dayWeek">20° C</h2>
+                        <h2 class="day-info__data" id="dateOfDay">20° C</h2>
+                        <h2 class="day-info__temp" id="temp">20° C</h2>
+                    </div>
+                    <img class="card__icon size-s" src="#" alt="Cloudy">
+                </div>
+            </div>
+        </div> 
+    </main>
 </body>
 </html>
